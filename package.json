@@ -1,0 +1,13 @@
+{
+  "name": "javascriptforautomationjuly20264",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Priyanka Nigade",
+  "license": "ISC",
+  "description": "This is Javascript project"
+}
