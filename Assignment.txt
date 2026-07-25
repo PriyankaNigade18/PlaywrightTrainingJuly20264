@@ -1,0 +1,74 @@
+Assignment on DataTypes,Variable and Operators
+1. Identify the Data Type 
+Write a program to declare the following variables and log 
+their data types: 
+let a = "Hello"; 
+let b = 100; 
+let c = true; 
+let d = null; 
+let e = undefined; 
+let f = { name: "John" }; 
+let g = [1, 2, 3]; 
+let h = function() { 
+}; 
+
+2. Variable Scope Check 
+What will be the output of the following? 
+var x = 10; 
+function test() { 
+var x = 20; 
+console.log(x); 
+} 
+test(); 
+console.log(x); 
+
+3. Hoisting Example 
+Predict the output and explain: 
+console.log(a); 
+var a = 5; 
+
+4. Let vs Var 
+What will be the output? 
+function testScope() { 
+if (true) { 
+var a = 10; 
+let b = 20; 
+} 
+console.log(a); // ? 
+console.log(b); // ? 
+} 
+testScope(); 
+
+5. Const Behavior 
+What will happen? 
+const obj = { name: "Alice" }; 
+obj.name = "Bob"; 
+console.log(obj.name); 
+obj = { name: "Charlie" }; // What happens here? 
+
+6. What’s the type of typeof null? 
+console.log(typeof null); // ? 
+
+
+---------------------------------------------------------------------
+Prepare Theory based questions
+Q1. What is JavaScript? Is it a compiled language or an interpreted language?
+Q2. Name at least three places where JavaScript can run.
+Q3. What is Node.js? Why do we need it if we already have browsers?
+Q4. What is the V8 engine? Which browser uses it?
+Q5. Name the JavaScript engines used by Chrome, Firefox, and Safari.
+Q6. What is the difference between a browser engine and a JavaScript engine?
+Q7. How do you check if Node.js is installed on your machine? Write the command.
+Q8. What is VS Code? Name two extensions that are useful for writing JavaScript.
+Q9. Write a simple program that prints 'Hello, JavaScript!' using console.log and run it using Node.js.
+Q10. Can JavaScript run without a browser? Explain how
+Q11. What are the three ways to declare a variable in JavaScript?
+Q12. What is the difference between let and const?
+Q13. Can you reassign a value to a const variable? What happens if you try?
+Q14. What is hoisting? Give a simple example using var.
+Q15. What happens if you try to use a let variable before declaring it?
+Q16. List all the primitive data types in JavaScript.
+Q17. What is the difference between null and undefined?
+Q18. What does typeof return for: 42, 'hello', true, null, undefined?
+Q19. Write a small code to declare one variable with var, one with let, and one with const. Print all
+three
