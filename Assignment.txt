@@ -49,6 +49,24 @@ obj = { name: "Charlie" }; // What happens here?
 6. What’s the type of typeof null? 
 console.log(typeof null); // ? 
 
+7.Guess the output?
+---------------------
+1.console.log(1 + "2" + 3);
+2.console.log(1 + 2 + "3");
+3.console.log("5" * true);
+4.console.log(10 > 5 > 1);
+5.let a = 2;
+    let b = a++ + ++a;
+    console.log(a, b);
+6.let a = 3;
+console.log(a++ + a++ + ++a);
+7.console.log(5 * 2 == "10");
+8.
+let x = 1;
+let y = ++x + x++ + x;
+console.log(x, y);
+9.console.log(10 > 5 && 20 < 30);
+10.console.log(null || undefined || "Playwright");
 
 ---------------------------------------------------------------------
 Prepare Theory based questions
