@@ -66,3 +66,45 @@ for(let i=10;i>=1;i--)
     console.log(i);
     
 }
+
+console.log("-------------");
+//factoral of number
+//5!=5*4*3*2*1=120
+
+let fact=1;
+for(let i=5;i>=1;i--)
+{
+    fact=fact*i;
+}
+
+console.log("Factorial of number 5 is: "+fact);
+
+console.log("-------------");
+
+//sum of 100 natural numbers
+//1+2+3+4+.....+100=5050
+
+let sum=0;
+for(let i=1;i<=100;i++)
+{
+sum=sum+i;
+}
+   
+console.log("Sum of 100 natural numbers: "+sum);
+
+console.log("-------------");
+
+//by default for loop condition is always true
+for(;;)
+{
+    console.log("hi");
+    
+}
+
+
+
+
+
+
+
+
