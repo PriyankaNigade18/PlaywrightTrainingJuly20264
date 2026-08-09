@@ -25,7 +25,7 @@ Scenario: Pegination logic,month selection
 result it is then use dowhile
 
 
-Wonking with Array/Object
+Working with Array/Object
 =========================
 1. for...of loop
 2. for...in loop

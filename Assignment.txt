@@ -155,3 +155,90 @@ const correctPassword = "admin@123";
 3. Use an if...else statement to compare: If both enteredusername and 
 enteredPassword match the correct credentials, print: Login Successful 
 Otherwise, print: Invalid credentials Run the script using: node login.js
+
+=============================
+loop + Array
+=====================
+Assignment1: 
+Problem: 
+Print all even numbers between 1 and 50. 
+
+Assignment2: 
+Problem: 
+Reverse a number using a loop. 
+Input:1234 
+Output:4321 
+
+Assignment3: 
+Problem: 
+Check whether a number 7 is prime or not. 
+
+Assignment 4:
+Problem:
+Check 121 is Palindrome Number 
+
+Assignment 5:
+Problem:
+Count number of Digits
+Input: 12345
+Output: 5
+
+Assignment 6: 
+Problem:
+Find the largest digit
+Input:58329
+Output:9
+
+scenario based questions on Array
+-----------------------------------------
+1. Employee Management System 
+Scenario: 
+A company stores employee names in an array. 
+Question: 
+Declare an array with employee names "Rahul", "Priya", "Amit" and 
+perform the following operations: 
+1. Add "Sneha" to the employee list  
+2. Remove the last employee from the list  
+3. Add "Manager" at the beginning of the list  
+4. Remove the first employee from the list  
+
+
+2. Shopping Cart Application 
+Scenario: 
+An e-commerce website manages products in a shopping cart. 
+Question: 
+Declare an array with "Mobile", "Laptop", "Mouse" and: 
+1. Add "Keyboard" to the cart  
+2. Display all products in reverse order  
+3. Convert all cart items into a single string separated by " | " 
+
+
+3. Browser Tabs Automation 
+Scenario: 
+A browser automation framework tracks currently opened tabs. 
+Question: 
+Declare an array with "Google", "YouTube", "ChatGPT" and: 
+1. Close the last opened tab  
+2. Add "GitHub" as the first tab  
+3. Display tabs in reverse order  
+
+
+
+4. Food Delivery Orders 
+Scenario: 
+A food delivery application maintains current orders. 
+Question: 
+Declare an array with "Pizza", "Burger", "Pasta" and: 
+1. Add "Sandwich" to the orders  
+2. Remove the first order  
+3. Display all orders as a comma-separated string  
+
+
+5. Student Attendance System 
+Scenario: 
+A school application maintains student attendance. 
+Question: 
+Declare an array with "Ankit", "Riya", "Karan" and: 
+1. Add "Neha" at the beginning  
+2. Remove the last student from the list  
+3. Create a separate copy of the attendance list 
