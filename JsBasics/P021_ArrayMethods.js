@@ -56,7 +56,7 @@ console.log("----concat()-------");
 let a=[10,20,30];
 let b=[100,200,300];
 let res=a.concat(b);
-console.log(res);
+console.log(res);//[ 10, 20, 30, 100, 200, 300 ]
 
 
 
