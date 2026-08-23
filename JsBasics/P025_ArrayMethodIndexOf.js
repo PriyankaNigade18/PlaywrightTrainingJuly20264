@@ -32,30 +32,16 @@ console.log("Index of 3rd occurrence Feb: "+month.indexOf('Feb',index2+1));
 //give me last Feb index:lastIndexOf()
 console.log("Last occurrence Feb index: "+month.lastIndexOf('Feb'));//10
 
-/*
-let indexes=[];
-//all 'Feb' index
-for(let i of month)
-{
-    let count=i.indexOf('Feb');
-    let occ=i.indexOf('Feb',count+1);
-    indexes.push(occ);
-   
-}
-
-console.log(indexes);*/
-
 
 let indexes = [];
-let searchMonth = "feb"
-for(let monthI in month)
-    {
-    if(month[monthI]=== searchMonth){
-        indexes.push(monthI);
+let searchMonth = "Feb";
+
+for (let i = 0; i < month.length; i++) {
+    if (month[i] === searchMonth) {
+        indexes.push(i);
     }
 }
-console.log(`The index values for month ${searchMonth} is `,indexes);
 
-
+console.log("All Indexes:"+indexes);
 
 

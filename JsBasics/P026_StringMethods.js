@@ -125,14 +125,77 @@ for(let i in fname)
     console.log(i+" : value is: "+fname[i]);
     
 }
+console.log("----------------------");
 
 
+//split(regular express):Array[string]
+let tools="Selenium,Cypress,Playwright,Appium,Postman,Jmeter";
+console.log(tools);
+console.log(typeof tools);//string
+
+let allTools=tools.split(",");
+console.log(allTools);
+
+//extract single element 
+console.log(allTools[2]);
+
+let apiTestTool=tools.split(",")[4];
+console.log(apiTestTool);//postman
 
 
+console.log("----------");
 
-//split(regular express)
+let date="August 2026";
+let month=date.split(" ")[0];
+let year=date.split(" ")[1];
 
+console.log(month +" : "+year);
+
+console.log("----------------");
+
+/*
+amount validation scenario
+*/
+
+let bill="Your total amount is 5000";
+let data=bill.split(" ")[4];
+console.log(data);//5000
+console.log(typeof data);//string
+//string --->number
+let amount=Number(data);
+console.log(amount);//5000
+console.log(typeof amount);//number
+
+if(amount<=10000)
+{
+    console.log("Amount is valid!");
+    
+}
 //write logic for reverse string
+
+let pl="Javascript with playwright";
+console.log(pl);
+
+console.log(pl.length);//10
+let res="";
+for(let i=pl.length-1;i>=0;i--)
+{
+    res=res+pl.charAt(i);
+}
+
+console.log("Reverse string is: "+res);
+
+console.log("----------------");
+
+
+//count total words from string
+let testData="This is test data for Playwright";
+let totalWords=testData.split(" ").length;
+console.log("Total words are: "+totalWords);
+
+
+
+
 
 
 
