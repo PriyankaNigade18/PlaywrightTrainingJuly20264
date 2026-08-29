@@ -10,7 +10,7 @@ Ways
 ============
 1.Using object literal
 2.Using Class level (ES6)
-3.Using cionstructor function(ES6)
+3.Using constructor function(ES6)
 4.Prototype based(Object interface)
 
 */
