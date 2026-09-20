@@ -190,8 +190,8 @@ throw new Error(`${element} ELEMENT NOT Found!`);
 
 //11.bigInt: largest integer value we use bigint
 
-let transactionId:bigint=6588768970988798098n;
-console.log("Transaction id is: "+transactionId);
+// let transactionId:bigint=6588768970988798098n;
+// console.log("Transaction id is: "+transactionId);
 
 
 //12.Symbol:
