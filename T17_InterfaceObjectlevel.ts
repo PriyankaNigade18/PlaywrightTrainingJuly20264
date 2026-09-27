@@ -45,72 +45,71 @@ In Typescript we can use interface at two levels
 
 type alise vs interface
 ------------------------------
+- type alises can have only key types
+- interface can have keys and method types as well 
+
 */
 
+//declaring for person object datatype
+type person={
+    id:number,
+    name:string,
+    profile:string,
 
-//class level
+   }
 
-
-interface WHO
-{
-    covid19Test():void;
-}
-interface IMA extends WHO
-{
-    cardio():void;
-    dental():void;
-    
-}
-
-interface USMA extends WHO
-{
-    physio():void;
-    nero():void
+//object
+let person1:person={
+id:101,
+name:"Parag",
+profile:"QA"
 }
 
-class NobleHs implements IMA,USMA//multiple inheritance
-{
-    covid19Test(): void {
-        console.log("NobleHs......Covid19TestService()");
+console.log(person1);
+
+console.log("-------------------");
+
+
+//Interface base on object literal
+interface product{
+    //data
+    pid:number,
+    prodName:string,
+    price:number,
+    //methods
+    getData():void
+}
+
+let product1:product={
+
+    pid:111,
+    prodName:"Iphone",
+    price:800000,
+    getData() {
+         console.log("Data from Product1.....");
     }
-    physio(): void {
-        console.log("NobleHs.......PhysioService()");
-    }
-    nero(): void {
-         console.log("NobleHs.......NeroService()");
-    }
-    cardio(): void {
-        console.log("NobleHs.......cardioService()");
+}
+
+let product2:product={
+
+    pid:222,
+    prodName:"Laptop",
+    price:700000,
+    getData() {
+        console.log("Data from Product2.....");
         
     }
-    dental(): void {
-         console.log("NobleHs.......dentalService()");
-    }
-
-    getcustomersDetails()
-    {
-        console.log("NobleHs.....customerDetails()");
-        
-    }
 }
 
-//Object
-//child class ref and child class object
+console.log(product1);
+console.log(product1.pid);
 
-let n1:NobleHs=new NobleHs();
-n1.getcustomersDetails();//individual
-n1.cardio();//abstract inherited method
-n1.dental();//abstract inherited method
-n1.nero();//abstract inherited method
-n1.physio();//abstract inherited method
-n1.covid19Test();
+//method
+product1.getData();
+console.log("------");
+
+console.log(product2);
 
 
-console.log("---------------------");
 
-//Parent ref and child object
 
-let i1:IMA=new NobleHs();
-i1.cardio();
-i1.dental();
-i1.covid19Test();
